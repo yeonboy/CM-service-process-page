@@ -61,7 +61,7 @@
             --font-color: #323232;
             --bg-color: #ffffff;
             width: 100%;
-            height: 410px;
+            height: 440px; /* 카드 높이 수정 */
             border-radius: 20px;
             background: var(--bg-color);
             border: 1px solid #eee;
@@ -97,7 +97,7 @@
 
         /* 카드 설명 래퍼 */
         .card__descr-wrapper {
-            padding: 15px 20px;
+            padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -106,7 +106,6 @@
         }
 
         .card__content {
-            /* flex-grow 제거하여 내용만큼만 높이 차지 */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -148,7 +147,6 @@
             color: var(--font-color);
             font-size: 14px;
             line-height: 1.6;
-            /* flex-grow 제거 */
         }
 
         /* 바로가기 버튼 스타일 */
@@ -266,7 +264,7 @@
                     <div class="card__content">
                         <div class="card__text-header">
                             <p class="card__title">현장측정 및 시료접수</p>
-                            <p class="card__subtitle">Field Measurement or Sample Reception</p>
+                            <p class="card__subtitle">Field Measurement<br>or Sample Reception</p>
                         </div>
                         <img src="https://i.imgur.com/jgCIl1A.png" alt="현장측정 or 시료접수 아이콘" class="card__icon"
                             onerror="this.onerror=null;this.src='https://placehold.co/48x48/e0e0e0/666666?text=Icon';">
@@ -558,3 +556,4 @@
 </body>
 
 </html>
+
